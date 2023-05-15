@@ -1,0 +1,84 @@
+:root{
+    --red: #d12929;
+    --blue: #3d3daf;
+    --purple: #b635b6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+}
+
+#app{
+    background: #202020;
+    width: 70vw;
+    height: 80vh;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.outer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.inner{
+    width: 50%;
+    height: 100%;
+    transition: 0.4s ease-in-out ;
+}
+.inner1{
+    background: var(--blue);
+}
+.inner2{
+    background: var(--red);
+}
+
+button{
+    width: max-content;
+    height: 3rem;
+    background: transparent;
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid var(--purple);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    overflow: hidden;
+    padding: 5px 20px;
+}
+
+.moveLeft{
+    transform: translateX(-100%);    
+}
+
+.moveRight{
+    transform: translateX(100%);    
+}
+
+.bgpurple{
+    background: var(--purple);
+}
+
+.reset{
+    margin: 0 auto;
+}
