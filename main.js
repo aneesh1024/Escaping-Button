@@ -4,11 +4,14 @@ const Button = document.querySelector("button");
 const ResetButton = document.querySelector(".reset");
 let sign = ["+", "-"];
 let btnText = [
-  "Almost got me",
+  "Almost got me 😲",
   "Over Here",
-  "Oopsie",
-  "Hahahahaha",
+  "Oopsie 🤭",
+  "Hahahahaha 🤣",
   "Try again",
+  "LMAO 😂",
+  "LOL",
+  "Noob"
 ];
 let flag = false;
 let index1 = Math.floor(Math.random() * 2);
